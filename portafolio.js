@@ -1,4 +1,4 @@
-dordocument.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
 
 const trabajos = [
   { nombre: "Hei Tiare", calificacion: "Personal", imagen: "rapa.jpg" },
