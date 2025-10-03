@@ -39,4 +39,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const overlay = document.createElement('div');
     overlay.className = 'gallery-overlay';
-titulo.textContent = trabajo.nombre;
+
+    const titulo = document.createElement('h3');
+    titulo.textContent = trabajo.nombre;
+
+    const calificacion = document.createElement('p');
+    calificacion.textContent = trabajo.calificacion;
+
+    overlay.appendChild(titulo);
+    overlay.appendChild(calificacion);
+
+    item.appendChild(img);
+    item.appendChild(overlay);
+
+    portafolioGrid.appendChild(item);
+  });
+
+});
