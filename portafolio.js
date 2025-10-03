@@ -1,8 +1,8 @@
-document.addEventListener('DOMContentLoaded', () => {
+dordocument.addEventListener('DOMContentLoaded', () => {
 
 const trabajos = [
   { nombre: "Hei Tiare", calificacion: "Personal", imagen: "rapa.jpg" },
-  { nombre: "Madre", calificacion: "Personal", imagen: "madre.jpg" },
+  { nombre: "Madre", calificacion: "Personal", imagen: "ecuador.jpg" },
   { nombre: "Mural BRP Santiago", calificacion: "Territorial", imagen: "brp.jpg" },
   { nombre: "Mural BRP Lo Vial", calificacion: "Territorial", imagen: "mural.jpg" },
   { nombre: "Mesa de trabajo", calificacion: "Territorial", imagen: "pinturas.jpg" },
