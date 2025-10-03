@@ -39,6 +39,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const overlay = document.createElement('div');
     overlay.className = 'gallery-overlay';
-
-    const titulo = document.createElement('h3');
-    titulo.textContent = tra
+titulo.textContent = trabajo.nombre;
