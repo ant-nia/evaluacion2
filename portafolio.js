@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+  // Array de trabajos
   const trabajos = [
     { nombre: "Hei Tiare", calificacion: "Personal", imagen: "rapa.jpg" },
     { nombre: "Madre", calificacion: "Personal", imagen: "ecuador.jpg" },
@@ -19,32 +20,25 @@ document.addEventListener('DOMContentLoaded', () => {
     { nombre: "Sesión", calificacion: "Freelance", imagen: "marti.jpg" },
   ];
 
+  // Selecciona el contenedor
   const portafolioGrid = document.getElementById('portafolio');
 
+  if (!portafolioGrid) {
+    console.error("No se encontró el contenedor #portafolio");
+    return;
+  }
+
+  // Crear y agregar cada item
   trabajos.forEach(trabajo => {
     const item = document.createElement('div');
-    item.classList.add('gallery-item');
+    item.className = 'gallery-item';
 
     const img = document.createElement('img');
     img.src = trabajo.imagen;
     img.alt = trabajo.nombre;
 
     const overlay = document.createElement('div');
-    overlay.classList.add('gallery-overlay');
+    overlay.className = 'gallery-overlay';
 
     const titulo = document.createElement('h3');
-    titulo.textContent = trabajo.nombre;
-
-    const calificacion = document.createElement('p');
-    calificacion.textContent = trabajo.calificacion;
-
-    overlay.appendChild(titulo);
-    overlay.appendChild(calificacion);
-
-    item.appendChild(img);
-    item.appendChild(overlay);
-
-    portafolioGrid.appendChild(item);
-  });
-
-});
+    titulo.textContent = tra
