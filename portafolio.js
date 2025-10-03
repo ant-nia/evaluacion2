@@ -11,7 +11,7 @@ const trabajos = [
   { nombre: "ÍNTIMO", calificacion: "Universitario", imagen: "manos.jpg" },
   { nombre: "ÍNTIMO", calificacion: "Universitario", imagen: "patio.jpg" },
   { nombre: "SHOOTING Santiago Centro", calificacion: "Universitario", imagen: "centro.jpg" },
-  { nombre: "BODA (obra)", calificacion: "Universitario", imagen: "boda.JPG" },
+  { nombre: "BODA (obra)", calificacion: "Universitario", imagen: "boda.jpg" },
   { nombre: "BODA (obra)", calificacion: "Universitario", imagen: "bodaa.jpeg" },
   { nombre: "POLAS DE MODA", calificacion: "Freelance", imagen: "polas.jpeg" },
   { nombre: "Polaroid de modelo", calificacion: "Universitario", imagen: "tachi.jpg" },
